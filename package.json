@@ -15,11 +15,10 @@
       ],
       "scripts": {
             "build": "rm -r lib  && tsc",
-            "publish": " yarn run build && yarn run build:cdn && npm publish",
+            "publish": " yarn run build && npm publish",
             "start:dev": "NODE_ENV=development  nodemon --exec ts-node index.ts",
             "test": "jest",
             "test:cov": "jest --coverage --runInBand --detectOpenHandles",
-            "build:cdn": "webpack --config webpack.config.js",
             "format": "prettier --write \"./**/*.ts\" \"./**/*.js\" "
       },
       "author": {
