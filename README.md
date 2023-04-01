@@ -26,7 +26,7 @@ npm install yup yup-password-validator
 yarn add yup yup-password-validator
 ```
 
-## Joi extend function
+## Yup extend function
 
 - minOfUppercase(min: number, message?: string): Specifies the minimum number of uppercase string characters.
 - minOfLowercase(min: number, message?: string): Specifies the minimum number of lowercase string characters.
